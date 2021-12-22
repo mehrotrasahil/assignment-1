@@ -1,0 +1,24 @@
+Assignment For Front End Developer
+
+Given Tasks
+
+CODING ROUND
+Use the CSV file attached Sacramentorealestatetransactions.csv.
+Show all the data in tabular format.
+There should be following features available:
+● The title row should remain static on scrolling (frozen)
+● The UI should be responsive.
+● The table should be paginated with an option to adjust number of rows on each page.
+● Option to sort ANY COLUMN in ASC or DESC order.
+● Option to filter data by City, State, Beds and Baths. Multiple filters should be
+○ For example, User should be able to say “Show me data where city = CA and beds >= 2 and
+baths < 1”.
+
+
+
+Task Completed
+
+1:- The Title row is static and scrollable also.
+2:- The UI is Responsive.
+3:- The table is paginated and an option is also there at the top of the page to adjust the number of rows on each page.
+4:- There is also an option to Sort the table in ASC and DESC order in(thead) represented by an arrow(↑).
