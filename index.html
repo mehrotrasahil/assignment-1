@@ -13932,10 +13932,10 @@
                     if (dataLab != null) {
                         var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
                         row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
-                        $(".pagination").show()
+                        $(".pagination").hide()
                     }
                     else if (dataLab == null) {
-                        $(".pagination").hide()
+                        $(".pagination").show()
                     }
 
                 }
