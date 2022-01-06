@@ -13,7 +13,24 @@
     <title>Assignment </title>
 </head>
 <style>
+  #sd{
+    margin-bottom: 10px;
+  }
+  input[type=search]{
+    width:45%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
   
+  input[type=search]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
 </style>
 
 <body>
@@ -37,83 +54,11 @@
             </div>
 
         </div>
-        <table class="table">
-            <thead>
-                <tr class="filters">
-                    <th>City
-                        <select id="assigned-city-filter" class="form-control filter">
-                            <option value="0">None</option>
-                            <option value="AUBURN">AUBURN</option>
-                            <option value="CARMICHAEL">CARMICHAEL</option>
-                            <option value="CITRUS HEIGHTS">CITRUS HEIGHTS</option>
-                            <option value="DIAMOND SPRINGS">COOL</option>
-                            <option value="">DIAMOND SPRINGS</option>
-                            <option value="EL DORADO">EL DORADO</option>
-                            <option value="EL DORADO HILLS">EL DORADO HILLS</option>
-                            <option value="ELK GROVE">ELK GROVE</option>
-                            <option value="ELVERTA">ELVERTA</option>
-                            <option value="FAIR OAKS">FAIR OAKS</option>
-                            <option value="FOLSOM">FOLSOM</option>
-                            <option value="FORESTHILL">FORESTHILL</option>
-                            <option value="GALT">GALT</option>
-                            <option value="GARDEN VALLEY">GARDEN VALLEY</option>
-                            <option value="GOLD RIVER">GOLD RIVER</option>
-                            <option value="GRANITE BAY">GRANITE BAY</option>
-                            <option value="GREENWOOD">GREENWOOD</option>
-                            <option value="LINCOLN">LINCOLN</option>
-                            <option value="LOOMIS">LOOMIS</option>
-                            <option value="MATHER">MATHER</option>
-                            <option value="MEADOW VISTA">MEADOW VISTA</option>
-                            <option value="NORTH HIGHLANDS">NORTH HIGHLANDS</option>
-                            <option value="ORANGEVALE">ORANGEVALE</option>
-                            <option value="PENRYN">PENRYN</option>
-                            <option value="PLACERVILLE">PLACERVILLE</option>
-                            <option value="POLLOCK PINES">POLLOCK PINES</option>
-                            <option value="RANCHO CORDOVA">RANCHO CORDOVA</option>
-                            <option value="RIO LINDA">RIO LINDA</option>
-                            <option value="ROCKLIN">ROCKLIN</option>
-                            <option value="ROSEVILLE">ROSEVILLE</option>
-                            <option value="SACRAMENTO">SACRAMENTO</option>
-                            <option value="SHINGLE SPRINGS">SHINGLE SPRINGS</option>
-                            <option value="SLOUGHHOUSE">SLOUGHHOUSE</option>
-                            <option value="WALNUT GROVE">WALNUT GROVE</option>
-                            <option value="WEST SACRAMENTO">WEST SACRAMENTO</option>
-                            <option value="WILTON">WILTON</option>
-                        </select>
-                    </th>
-                    <th>State
-                        <select id="filter-state" class="form-control filter">
-                            <option>Any</option>
-                            <option>CA</option>
+        <input type="search" id="sd" class="light-table-filter" data-table="order-table" placeholder="Filter Data">
+        
 
-                        </select>
-                    </th>
-                    <th>Beds
-                        <select id="milestone-filter" class="form-control">
-                            <option>None</option>
-                            <option>0</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </th>
-                    <th>Baths
-                        <select id="priority-filter" class="form-control">
-                            <option>Any</option>
-                            <option>0</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                        </select>
-                    </th>
-
-                </tr>
-            </thead>
-        </table>
         <div class="table-responsive-sm tableFixHead">
-            <table class="table TABLE_1" id="table-id" style="background-color: rgb(255, 255, 255);">
+            <table class="order-table TABLE_1 table" id="table-id" style="background-color: rgb(255, 255, 255);">
                 <thead class="thead-dark">
                     <tr>
                         
@@ -13963,12 +13908,1502 @@
     <script src="assests/js/bootstrap.min.js"></script>
     <script src="assests/js/custom.js"></script>
     <script>
-      
-    </script>
-    <script>
+        
 
-      
+
     </script>
+  
 </body>
 
-</html>
+</html><td class="column10 style0 n">38.886104</td>
+                        <td class="column11 style0 n">-121.290285</td>
+                    </tr>
+                    <tr class="row583">
+                        <td class="column0 style0 s">63 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.885093</td>
+                        <td class="column11 style0 n">-121.289932</td>
+                    </tr>
+                    <tr class="row584">
+                        <td class="column0 style0 s">398 1ST ST</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.88653</td>
+                        <td class="column11 style0 n">-121.288952</td>
+                    </tr>
+                    <tr class="row585">
+                        <td class="column0 style0 s">386 1ST ST</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.886528</td>
+                        <td class="column11 style0 n">-121.288869</td>
+                    </tr>
+                    <tr class="row586">
+                        <td class="column0 style0 s">374 1ST ST</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.886525</td>
+                        <td class="column11 style0 n">-121.288787</td>
+                    </tr>
+                    <tr class="row587">
+                        <td class="column0 style0 s">116 CRYSTALWOOD WAY</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.886282</td>
+                        <td class="column11 style0 n">-121.289586</td>
+                    </tr>
+                    <tr class="row588">
+                        <td class="column0 style0 s">108 CRYSTALWOOD WAY</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.886282</td>
+                        <td class="column11 style0 n">-121.289646</td>
+                    </tr>
+                    <tr class="row589">
+                        <td class="column0 style0 s">100 CRYSTALWOOD WAY</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.886282</td>
+                        <td class="column11 style0 n">-121.289706</td>
+                    </tr>
+                    <tr class="row590">
+                        <td class="column0 style0 s">55 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.884865</td>
+                        <td class="column11 style0 n">-121.289922</td>
+                    </tr>
+                    <tr class="row591">
+                        <td class="column0 style0 s">51 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.884752</td>
+                        <td class="column11 style0 n">-121.289907</td>
+                    </tr>
+                    <tr class="row592">
+                        <td class="column0 style0 s">47 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.884638</td>
+                        <td class="column11 style0 n">-121.289893</td>
+                    </tr>
+                    <tr class="row593">
+                        <td class="column0 style0 s">43 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.884568</td>
+                        <td class="column11 style0 n">-121.289784</td>
+                    </tr>
+                    <tr class="row594">
+                        <td class="column0 style0 s">39 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.884546</td>
+                        <td class="column11 style0 n">-121.289562</td>
+                    </tr>
+                    <tr class="row595">
+                        <td class="column0 style0 s">35 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.884645</td>
+                        <td class="column11 style0 n">-121.289397</td>
+                    </tr>
+                    <tr class="row596">
+                        <td class="column0 style0 s">31 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.88479</td>
+                        <td class="column11 style0 n">-121.289392</td>
+                    </tr>
+                    <tr class="row597">
+                        <td class="column0 style0 s">27 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.884985</td>
+                        <td class="column11 style0 n">-121.289399</td>
+                    </tr>
+                    <tr class="row598">
+                        <td class="column0 style0 s">23 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.885181</td>
+                        <td class="column11 style0 n">-121.289406</td>
+                    </tr>
+                    <tr class="row599">
+                        <td class="column0 style0 s">19 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.885376</td>
+                        <td class="column11 style0 n">-121.289414</td>
+                    </tr>
+                    <tr class="row600">
+                        <td class="column0 style0 s">15 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.885571</td>
+                        <td class="column11 style0 n">-121.289421</td>
+                    </tr>
+                    <tr class="row601">
+                        <td class="column0 style0 s">7 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.885962</td>
+                        <td class="column11 style0 n">-121.289436</td>
+                    </tr>
+                    <tr class="row602">
+                        <td class="column0 style0 s">7 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.885962</td>
+                        <td class="column11 style0 n">-121.289436</td>
+                    </tr>
+                    <tr class="row603">
+                        <td class="column0 style0 s">3 CRYSTALWOOD CIR</td>
+                        <td class="column1 style0 s city" data-city="LINCOLN">LINCOLN</td>
+                        <td class="column2 style0 n">95648</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Mon May 19 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">4897</td>
+                        <td class="column10 style0 n">38.886093</td>
+                        <td class="column11 style0 n">-121.289584</td>
+                    </tr>
+                    <tr class="row604">
+                        <td class="column0 style0 s">8208 WOODYARD WAY</td>
+                        <td class="column1 style0 s city" data-city="CITRUS HEIGHTS">CITRUS HEIGHTS</td>
+                        <td class="column2 style0 n">95621</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1166</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">30000</td>
+                        <td class="column10 style0 n">38.715322</td>
+                        <td class="column11 style0 n">-121.314787</td>
+                    </tr>
+                    <tr class="row605">
+                        <td class="column0 style0 s">113 RINETTI WAY</td>
+                        <td class="column1 style0 s city" data-city="RIO LINDA">RIO LINDA</td>
+                        <td class="column2 style0 n">95673</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">30000</td>
+                        <td class="column10 style0 n">38.687172</td>
+                        <td class="column11 style0 n">-121.463933</td>
+                    </tr>
+                    <tr class="row606">
+                        <td class="column0 style0 s">15 LOORZ CT</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95823</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">838</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">55422</td>
+                        <td class="column10 style0 n">38.471646</td>
+                        <td class="column11 style0 n">-121.435158</td>
+                    </tr>
+                    <tr class="row607">
+                        <td class="column0 style0 s">5805 DOTMAR WAY</td>
+                        <td class="column1 style0 s city" data-city="NORTH HIGHLANDS">NORTH HIGHLANDS</td>
+                        <td class="column2 style0 n">95660</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">904</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">63000</td>
+                        <td class="column10 style0 n">38.672642</td>
+                        <td class="column11 style0 n">-121.380343</td>
+                    </tr>
+                    <tr class="row608">
+                        <td class="column0 style0 s">2332 CAMBRIDGE ST</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95815</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">1032</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">65000</td>
+                        <td class="column10 style0 n">38.608085</td>
+                        <td class="column11 style0 n">-121.449651</td>
+                    </tr>
+                    <tr class="row609">
+                        <td class="column0 style0 s">3812 BELDEN ST</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95838</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">904</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">65000</td>
+                        <td class="column10 style0 n">38.636833</td>
+                        <td class="column11 style0 n">-121.44164</td>
+                    </tr>
+                    <tr class="row610">
+                        <td class="column0 style0 s">3348 40TH ST</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95817</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">1080</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">65000</td>
+                        <td class="column10 style0 n">38.544162</td>
+                        <td class="column11 style0 n">-121.460652</td>
+                    </tr>
+                    <tr class="row611">
+                        <td class="column0 style0 s">127 QUASAR CIR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95822</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">990</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">66500</td>
+                        <td class="column10 style0 n">38.493504</td>
+                        <td class="column11 style0 n">-121.475304</td>
+                    </tr>
+                    <tr class="row612">
+                        <td class="column0 style0 s">3812 CYPRESS ST</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95838</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">900</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">71000</td>
+                        <td class="column10 style0 n">38.636877</td>
+                        <td class="column11 style0 n">-121.444948</td>
+                    </tr>
+                    <tr class="row613">
+                        <td class="column0 style0 s">5821 64TH ST</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95824</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">861</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">75000</td>
+                        <td class="column10 style0 n">38.521202</td>
+                        <td class="column11 style0 n">-121.428146</td>
+                    </tr>
+                    <tr class="row614">
+                        <td class="column0 style0 s">8248 CENTER PKWY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95823</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">906</td>
+                        <td class="column7 style0 s">Condo</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">77000</td>
+                        <td class="column10 style0 n">38.459002</td>
+                        <td class="column11 style0 n">-121.428794</td>
+                    </tr>
+                    <tr class="row615">
+                        <td class="column0 style0 s">1171 SONOMA AVE</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95815</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">1011</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">85000</td>
+                        <td class="column10 style0 n">38.6238</td>
+                        <td class="column11 style0 n">-121.439872</td>
+                    </tr>
+                    <tr class="row616">
+                        <td class="column0 style0 s">4250 ARDWELL WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95823</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1089</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">95625</td>
+                        <td class="column10 style0 n">38.466938</td>
+                        <td class="column11 style0 n">-121.455631</td>
+                    </tr>
+                    <tr class="row617">
+                        <td class="column0 style0 s">3104 CLAY ST</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95815</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">832</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">96140</td>
+                        <td class="column10 style0 n">38.62391</td>
+                        <td class="column11 style0 n">-121.439208</td>
+                    </tr>
+                    <tr class="row618">
+                        <td class="column0 style0 s">6063 LAND PARK DR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95822</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">800</td>
+                        <td class="column7 style0 s">Condo</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">104250</td>
+                        <td class="column10 style0 n">38.517029</td>
+                        <td class="column11 style0 n">-121.513809</td>
+                    </tr>
+                    <tr class="row619">
+                        <td class="column0 style0 s">4738 OAKHOLLOW DR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95842</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1292</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">105000</td>
+                        <td class="column10 style0 n">38.679598</td>
+                        <td class="column11 style0 n">-121.356035</td>
+                    </tr>
+                    <tr class="row620">
+                        <td class="column0 style0 s">1401 STERLING ST</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95822</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">810</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">108000</td>
+                        <td class="column10 style0 n">38.520319</td>
+                        <td class="column11 style0 n">-121.504727</td>
+                    </tr>
+                    <tr class="row621">
+                        <td class="column0 style0 s">3715 DIDCOT CIR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95838</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1064</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">109000</td>
+                        <td class="column10 style0 n">38.635232</td>
+                        <td class="column11 style0 n">-121.460098</td>
+                    </tr>
+                    <tr class="row622">
+                        <td class="column0 style0 s">2426 RASHAWN DR</td>
+                        <td class="column1 style0 s city" data-city="POLLOCK PINES">RANCHO CORDOVA</td>
+                        <td class="column2 style0 n">95670</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">911</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">115000</td>
+                        <td class="column10 style0 n">38.610852</td>
+                        <td class="column11 style0 n">-121.273278</td>
+                    </tr>
+                    <tr class="row623">
+                        <td class="column0 style0 s">4800 WESTLAKE PKWY Unit 410</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95835</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">1</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">846</td>
+                        <td class="column7 style0 s">Condo</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">115000</td>
+                        <td class="column10 style0 n">38.658812</td>
+                        <td class="column11 style0 n">-121.542345</td>
+                    </tr>
+                    <tr class="row624">
+                        <td class="column0 style0 s">3409 VIRGO ST</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95827</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1320</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">115500</td>
+                        <td class="column10 style0 n">38.563402</td>
+                        <td class="column11 style0 n">-121.327747</td>
+                    </tr>
+                    <tr class="row625">
+                        <td class="column0 style0 s">1110 PINEDALE AVE</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95838</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1410</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">115620</td>
+                        <td class="column10 style0 n">38.660173</td>
+                        <td class="column11 style0 n">-121.440216</td>
+                    </tr>
+                    <tr class="row626">
+                        <td class="column0 style0 s">2361 LA LOMA DR</td>
+                        <td class="column1 style0 s city" data-city="POLLOCK PINES">RANCHO CORDOVA</td>
+                        <td class="column2 style0 n">95670</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1115</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">116000</td>
+                        <td class="column10 style0 n">38.59368</td>
+                        <td class="column11 style0 n">-121.316054</td>
+                    </tr>
+                    <tr class="row627">
+                        <td class="column0 style0 s">1455 64TH AVE</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95822</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1169</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">122000</td>
+                        <td class="column10 style0 n">38.492177</td>
+                        <td class="column11 style0 n">-121.503392</td>
+                    </tr>
+                    <tr class="row628">
+                        <td class="column0 style0 s">7328 SPRINGMAN ST</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95822</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1164</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">122500</td>
+                        <td class="column10 style0 n">38.491991</td>
+                        <td class="column11 style0 n">-121.477636</td>
+                    </tr>
+                    <tr class="row629">
+                        <td class="column0 style0 s">119 SAINT MARIE CIR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95823</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1341</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">123000</td>
+                        <td class="column10 style0 n">38.481454</td>
+                        <td class="column11 style0 n">-121.446644</td>
+                    </tr>
+                    <tr class="row630">
+                        <td class="column0 style0 s">12 COSTA BRASE CT</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95838</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1219</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">124000</td>
+                        <td class="column10 style0 n">38.655554</td>
+                        <td class="column11 style0 n">-121.464275</td>
+                    </tr>
+                    <tr class="row631">
+                        <td class="column0 style0 s">6813 SCOTER WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95842</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1127</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">124000</td>
+                        <td class="column10 style0 n">38.69043</td>
+                        <td class="column11 style0 n">-121.361035</td>
+                    </tr>
+                    <tr class="row632">
+                        <td class="column0 style0 s">6548 GRAYLOCK LN</td>
+                        <td class="column1 style0 s city" data-city="NORTH HIGHLANDS">NORTH HIGHLANDS</td>
+                        <td class="column2 style0 n">95660</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1272</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">124413</td>
+                        <td class="column10 style0 n">38.686061</td>
+                        <td class="column11 style0 n">-121.369949</td>
+                    </tr>
+                    <tr class="row633">
+                        <td class="column0 style0 s">1630 GLIDDEN AVE</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95822</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1253</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">125000</td>
+                        <td class="column10 style0 n">38.482717</td>
+                        <td class="column11 style0 n">-121.499683</td>
+                    </tr>
+                    <tr class="row634">
+                        <td class="column0 style0 s">7825 DALEWOODS WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95828</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1120</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">130000</td>
+                        <td class="column10 style0 n">38.477297</td>
+                        <td class="column11 style0 n">-121.411513</td>
+                    </tr>
+                    <tr class="row635">
+                        <td class="column0 style0 s">4073 TRESLER AVE</td>
+                        <td class="column1 style0 s city" data-city="NORTH HIGHLANDS">NORTH HIGHLANDS</td>
+                        <td class="column2 style0 n">95660</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1118</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">131750</td>
+                        <td class="column10 style0 n">38.659016</td>
+                        <td class="column11 style0 n">-121.370457</td>
+                    </tr>
+                    <tr class="row636">
+                        <td class="column0 style0 s">4288 DYMIC WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95838</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">3</td>
+                        <td class="column6 style0 n">1890</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">137721</td>
+                        <td class="column10 style0 n">38.646541</td>
+                        <td class="column11 style0 n">-121.441139</td>
+                    </tr>
+                    <tr class="row637">
+                        <td class="column0 style0 s">1158 SAN IGNACIO WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95833</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1260</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">137760</td>
+                        <td class="column10 style0 n">38.623045</td>
+                        <td class="column11 style0 n">-121.486279</td>
+                    </tr>
+                    <tr class="row638">
+                        <td class="column0 style0 s">4904 J PKWY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95823</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1400</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">138000</td>
+                        <td class="column10 style0 n">38.487297</td>
+                        <td class="column11 style0 n">-121.44295</td>
+                    </tr>
+                    <tr class="row639">
+                        <td class="column0 style0 s">2931 HOWE AVE</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95821</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">1264</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">140000</td>
+                        <td class="column10 style0 n">38.619012</td>
+                        <td class="column11 style0 n">-121.415329</td>
+                    </tr>
+                    <tr class="row640">
+                        <td class="column0 style0 s">5531 JANSEN DR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95824</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">1060</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">145000</td>
+                        <td class="column10 style0 n">38.522015</td>
+                        <td class="column11 style0 n">-121.438713</td>
+                    </tr>
+                    <tr class="row641">
+                        <td class="column0 style0 s">7836 ORCHARD WOODS CIR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95828</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1132</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">145000</td>
+                        <td class="column10 style0 n">38.47955</td>
+                        <td class="column11 style0 n">-121.410867</td>
+                    </tr>
+                    <tr class="row642">
+                        <td class="column0 style0 s">4055 DEERBROOK DR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95823</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1466</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">150000</td>
+                        <td class="column10 style0 n">38.472117</td>
+                        <td class="column11 style0 n">-121.459589</td>
+                    </tr>
+                    <tr class="row643">
+                        <td class="column0 style0 s">9937 BURLINE ST</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95827</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1092</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">150000</td>
+                        <td class="column10 style0 n">38.559641</td>
+                        <td class="column11 style0 n">-121.32316</td>
+                    </tr>
+                    <tr class="row644">
+                        <td class="column0 style0 s">6948 MIRADOR WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95828</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1628</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">151000</td>
+                        <td class="column10 style0 n">38.493484</td>
+                        <td class="column11 style0 n">-121.42035</td>
+                    </tr>
+                    <tr class="row645">
+                        <td class="column0 style0 s">4909 RUGER CT</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95842</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">960</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">155000</td>
+                        <td class="column10 style0 n">38.68747</td>
+                        <td class="column11 style0 n">-121.349234</td>
+                    </tr>
+                    <tr class="row646">
+                        <td class="column0 style0 s">7204 KERSTEN ST</td>
+                        <td class="column1 style0 s city" data-city="CITRUS HEIGHTS">CITRUS HEIGHTS</td>
+                        <td class="column2 style0 n">95621</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1075</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">155800</td>
+                        <td class="column10 style0 n">38.695863</td>
+                        <td class="column11 style0 n">-121.300814</td>
+                    </tr>
+                    <tr class="row647">
+                        <td class="column0 style0 s">3150 ROSEMONT DR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95826</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1428</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">156142</td>
+                        <td class="column10 style0 n">38.554927</td>
+                        <td class="column11 style0 n">-121.35521</td>
+                    </tr>
+                    <tr class="row648">
+                        <td class="column0 style0 s">8200 STEINBECK WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95828</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1358</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">158000</td>
+                        <td class="column10 style0 n">38.474854</td>
+                        <td class="column11 style0 n">-121.404726</td>
+                    </tr>
+                    <tr class="row649">
+                        <td class="column0 style0 s">8198 STEVENSON AVE</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95828</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">6</td>
+                        <td class="column5 style0 n">4</td>
+                        <td class="column6 style0 n">2475</td>
+                        <td class="column7 style0 s">Multi-Family</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">159900</td>
+                        <td class="column10 style0 n">38.465271</td>
+                        <td class="column11 style0 n">-121.40426</td>
+                    </tr>
+                    <tr class="row650">
+                        <td class="column0 style0 s">6824 OLIVE TREE WAY</td>
+                        <td class="column1 style0 s city" data-city="CITRUS HEIGHTS">CITRUS HEIGHTS</td>
+                        <td class="column2 style0 n">95610</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1410</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">160000</td>
+                        <td class="column10 style0 n">38.689239</td>
+                        <td class="column11 style0 n">-121.267737</td>
+                    </tr>
+                    <tr class="row651">
+                        <td class="column0 style0 s">3536 SUN MAIDEN WAY</td>
+                        <td class="column1 style0 s city" data-city="">ANTELOPE</td>
+                        <td class="column2 style0 n">95843</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1711</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">161500</td>
+                        <td class="column10 style0 n">38.70968</td>
+                        <td class="column11 style0 n">-121.382328</td>
+                    </tr>
+                    <tr class="row652">
+                        <td class="column0 style0 s">4517 OLYMPIAD WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95826</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1483</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">161600</td>
+                        <td class="column10 style0 n">38.536751</td>
+                        <td class="column11 style0 n">-121.359154</td>
+                    </tr>
+                    <tr class="row653">
+                        <td class="column0 style0 s">925 COBDEN CT</td>
+                        <td class="column1 style0 s city" data-city="GALT">GALT</td>
+                        <td class="column2 style0 n">95632</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1140</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">162000</td>
+                        <td class="column10 style0 n">38.282047</td>
+                        <td class="column11 style0 n">-121.295812</td>
+                    </tr>
+                    <tr class="row654">
+                        <td class="column0 style0 s">8225 SCOTTSDALE DR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95828</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1549</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">165000</td>
+                        <td class="column10 style0 n">38.487864</td>
+                        <td class="column11 style0 n">-121.402476</td>
+                    </tr>
+                    <tr class="row655">
+                        <td class="column0 style0 s">8758 LEMAS RD</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95828</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1410</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">165000</td>
+                        <td class="column10 style0 n">38.467487</td>
+                        <td class="column11 style0 n">-121.377055</td>
+                    </tr>
+                    <tr class="row656">
+                        <td class="column0 style0 s">6121 ALPINESPRING WAY</td>
+                        <td class="column1 style0 s city" data-city="ELK GROVE">ELK GROVE</td>
+                        <td class="column2 style0 n">95758</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1240</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">167293</td>
+                        <td class="column10 style0 n">38.434075</td>
+                        <td class="column11 style0 n">-121.432623</td>
+                    </tr>
+                    <tr class="row657">
+                        <td class="column0 style0 s">5937 YORK GLEN WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95842</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">5</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1712</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">168000</td>
+                        <td class="column10 style0 n">38.677003</td>
+                        <td class="column11 style0 n">-121.354454</td>
+                    </tr>
+                    <tr class="row658">
+                        <td class="column0 style0 s">6417 SUNNYFIELD WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95823</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1580</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">168000</td>
+                        <td class="column10 style0 n">38.449153</td>
+                        <td class="column11 style0 n">-121.428272</td>
+                    </tr>
+                    <tr class="row659">
+                        <td class="column0 style0 s">4008 GREY LIVERY WAY</td>
+                        <td class="column1 style0 s city" data-city="">ANTELOPE</td>
+                        <td class="column2 style0 n">95843</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1669</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">168750</td>
+                        <td class="column10 style0 n">38.71846</td>
+                        <td class="column11 style0 n">-121.370862</td>
+                    </tr>
+                    <tr class="row660">
+                        <td class="column0 style0 s">8920 ROSETTA CIR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95826</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">1029</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">168750</td>
+                        <td class="column10 style0 n">38.544374</td>
+                        <td class="column11 style0 n">-121.370874</td>
+                    </tr>
+                    <tr class="row661">
+                        <td class="column0 style0 s">8300 LICHEN DR</td>
+                        <td class="column1 style0 s city" data-city="CITRUS HEIGHTS">CITRUS HEIGHTS</td>
+                        <td class="column2 style0 n">95621</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">1103</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">170000</td>
+                        <td class="column10 style0 n">38.71641</td>
+                        <td class="column11 style0 n">-121.306239</td>
+                    </tr>
+                    <tr class="row662">
+                        <td class="column0 style0 s">8884 AMBERJACK WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95828</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">2161</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">170250</td>
+                        <td class="column10 style0 n">38.479343</td>
+                        <td class="column11 style0 n">-121.372553</td>
+                    </tr>
+                    <tr class="row663">
+                        <td class="column0 style0 s">4480 VALLEY HI DR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95823</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1650</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">173000</td>
+                        <td class="column10 style0 n">38.466781</td>
+                        <td class="column11 style0 n">-121.450955</td>
+                    </tr>
+                    <tr class="row664">
+                        <td class="column0 style0 s">2250 FOREBAY RD</td>
+                        <td class="column1 style0 s city" data-city="POLLOCK PINES">POLLOCK PINES</td>
+                        <td class="column2 style0 n">95726</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">1320</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">175000</td>
+                        <td class="column10 style0 n">38.77491</td>
+                        <td class="column11 style0 n">-120.597599</td>
+                    </tr>
+                    <tr class="row665">
+                        <td class="column0 style0 s">3529 FABERGE WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95826</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1200</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">176095</td>
+                        <td class="column10 style0 n">38.553275</td>
+                        <td class="column11 style0 n">-121.346218</td>
+                    </tr>
+                    <tr class="row666">
+                        <td class="column0 style0 s">1792 DAWNELLE WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95835</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1170</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">176250</td>
+                        <td class="column10 style0 n">38.68271</td>
+                        <td class="column11 style0 n">-121.501697</td>
+                    </tr>
+                    <tr class="row667">
+                        <td class="column0 style0 s">7800 TABARE CT</td>
+                        <td class="column1 style0 s city" data-city="CITRUS HEIGHTS">CITRUS HEIGHTS</td>
+                        <td class="column2 style0 n">95621</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1199</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">178000</td>
+                        <td class="column10 style0 n">38.70799</td>
+                        <td class="column11 style0 n">-121.302979</td>
+                    </tr>
+                    <tr class="row668">
+                        <td class="column0 style0 s">8531 HERMITAGE WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95823</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1695</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">179000</td>
+                        <td class="column10 style0 n">38.448452</td>
+                        <td class="column11 style0 n">-121.428536</td>
+                    </tr>
+                    <tr class="row669">
+                        <td class="column0 style0 s">2421 BERRYWOOD DR</td>
+                        <td class="column1 style0 s city" data-city="POLLOCK PINES">RANCHO CORDOVA</td>
+                        <td class="column2 style0 n">95670</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1157</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">180000</td>
+                        <td class="column10 style0 n">38.60868</td>
+                        <td class="column11 style0 n">-121.27849</td>
+                    </tr>
+                    <tr class="row670">
+                        <td class="column0 style0 s">1005 MORENO WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95838</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1410</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">180000</td>
+                        <td class="column10 style0 n">38.646206</td>
+                        <td class="column11 style0 n">-121.442767</td>
+                    </tr>
+                    <tr class="row671">
+                        <td class="column0 style0 s">1675 VERNON ST Unit 24</td>
+                        <td class="column1 style0 s city" data-city="ROCKLIN">ROSEVILLE</td>
+                        <td class="column2 style0 n">95678</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1174</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">180000</td>
+                        <td class="column10 style0 n">38.734136</td>
+                        <td class="column11 style0 n">-121.299639</td>
+                    </tr>
+                    <tr class="row672">
+                        <td class="column0 style0 s">24 WINDCHIME CT</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95823</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1593</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">181000</td>
+                        <td class="column10 style0 n">38.44617</td>
+                        <td class="column11 style0 n">-121.427824</td>
+                    </tr>
+                    <tr class="row673">
+                        <td class="column0 style0 s">540 HARLING CT</td>
+                        <td class="column1 style0 s city" data-city="RIO LINDA">RIO LINDA</td>
+                        <td class="column2 style0 n">95673</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1093</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">182000</td>
+                        <td class="column10 style0 n">38.68279</td>
+                        <td class="column11 style0 n">-121.453509</td>
+                    </tr>
+                    <tr class="row674">
+                        <td class="column0 style0 s">1207 CRESCENDO DR</td>
+                        <td class="column1 style0 s city" data-city="ROCKLIN">ROSEVILLE</td>
+                        <td class="column2 style0 n">95678</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1770</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">182587</td>
+                        <td class="column10 style0 n">38.72446</td>
+                        <td class="column11 style0 n">-121.292829</td>
+                    </tr>
+                    <tr class="row675">
+                        <td class="column0 style0 s">7577 EDDYLEE WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95822</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1436</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">185074</td>
+                        <td class="column10 style0 n">38.48291</td>
+                        <td class="column11 style0 n">-121.491509</td>
+                    </tr>
+                    <tr class="row676">
+                        <td class="column0 style0 s">8369 FOPPIANO WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95829</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1124</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">185833</td>
+                        <td class="column10 style0 n">38.453839</td>
+                        <td class="column11 style0 n">-121.357919</td>
+                    </tr>
+                    <tr class="row677">
+                        <td class="column0 style0 s">8817 SAWTELLE WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95826</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1139</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">186785</td>
+                        <td class="column10 style0 n">38.565322</td>
+                        <td class="column11 style0 n">-121.374251</td>
+                    </tr>
+                    <tr class="row678">
+                        <td class="column0 style0 s">1910 BONAVISTA WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95832</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1638</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">187000</td>
+                        <td class="column10 style0 n">38.476048</td>
+                        <td class="column11 style0 n">-121.494961</td>
+                    </tr>
+                    <tr class="row679">
+                        <td class="column0 style0 s">8 TIDE CT</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95833</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1328</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">188335</td>
+                        <td class="column10 style0 n">38.609864</td>
+                        <td class="column11 style0 n">-121.492304</td>
+                    </tr>
+                    <tr class="row680">
+                        <td class="column0 style0 s">8952 ROCKY CREEK CT</td>
+                        <td class="column1 style0 s city" data-city="ELK GROVE">ELK GROVE</td>
+                        <td class="column2 style0 n">95758</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1273</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">190000</td>
+                        <td class="column10 style0 n">38.431239</td>
+                        <td class="column11 style0 n">-121.44001</td>
+                    </tr>
+                    <tr class="row681">
+                        <td class="column0 style0 s">435 EXCHANGE ST</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95838</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">1082</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">190000</td>
+                        <td class="column10 style0 n">38.659434</td>
+                        <td class="column11 style0 n">-121.455236</td>
+                    </tr>
+                    <tr class="row682">
+                        <td class="column0 style0 s">10105 MONTE VALLO CT</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95827</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1578</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">190000</td>
+                        <td class="column10 style0 n">38.573917</td>
+                        <td class="column11 style0 n">-121.316916</td>
+                    </tr>
+                    <tr class="row683">
+                        <td class="column0 style0 s">3930 ANNABELLE AVE</td>
+                        <td class="column1 style0 s city" data-city="ROCKLIN">ROSEVILLE</td>
+                        <td class="column2 style0 n">95661</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">2</td>
+                        <td class="column5 style0 n">1</td>
+                        <td class="column6 style0 n">796</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">190000</td>
+                        <td class="column10 style0 n">38.727609</td>
+                        <td class="column11 style0 n">-121.226494</td>
+                    </tr>
+                    <tr class="row684">
+                        <td class="column0 style0 s">4854 TANGERINE AVE</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95823</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1386</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">191250</td>
+                        <td class="column10 style0 n">38.478239</td>
+                        <td class="column11 style0 n">-121.446326</td>
+                    </tr>
+                    <tr class="row685">
+                        <td class="column0 style0 s">2909 SHAWN WAY</td>
+                        <td class="column1 style0 s city" data-city="POLLOCK PINES">RANCHO CORDOVA</td>
+                        <td class="column2 style0 n">95670</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1452</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">193000</td>
+                        <td class="column10 style0 n">38.589925</td>
+                        <td class="column11 style0 n">-121.299059</td>
+                    </tr>
+                    <tr class="row686">
+                        <td class="column0 style0 s">4290 BLACKFORD WAY</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95823</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">3</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1513</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">193500</td>
+                        <td class="column10 style0 n">38.470494</td>
+                        <td class="column11 style0 n">-121.454162</td>
+                    </tr>
+                    <tr class="row687">
+                        <td class="column0 style0 s">5890 TT TRAK</td>
+                        <td class="column1 style0 s city" data-city="FORESTHILL">FORESTHILL</td>
+                        <td class="column2 style0 n">95631</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">0</td>
+                        <td class="column5 style0 n">0</td>
+                        <td class="column6 style0 n">0</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">194818</td>
+                        <td class="column10 style0 n">39.020808</td>
+                        <td class="column11 style0 n">-120.821518</td>
+                    </tr>
+                    <tr class="row688">
+                        <td class="column0 style0 s">7015 WOODSIDE DR</td>
+                        <td class="column1 style0 s city" data-city="SACRAMENTO">SACRAMENTO</td>
+                        <td class="column2 style0 n">95842</td>
+                        <td class="column3 style0 s CA" data-state="CA">CA</td>
+                        <td class="column4 style0 n">4</td>
+                        <td class="column5 style0 n">2</td>
+                        <td class="column6 style0 n">1578</td>
+                        <td class="column7 style0 s">Residential</td>
+                        <td class="column8 style0 s">Fri May 16 00:00:00 EDT 2008</td>
+                        <td class="column9 style0 n">195000</td>
+                        <td class="column10 style0 n">38.693071</td>
+                        <td class="column11 style0 n">-121.332365</td>
+                    </tr>
+                    <tr class="row689">
+                        <td class="column0 style0 s">6019 CHESHIRE WAY</td>
+                        <td class="column1 style0 s city" data-city="CITRUS HEIGHTS">CITRUS HEIGHTS</td>
+                        <td class="column2 style0 n">95610</td>
+                        <td class=
